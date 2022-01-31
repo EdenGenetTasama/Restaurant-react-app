@@ -4,7 +4,7 @@
   grid-template-areas:
     'header header '
     'menu main '
-    'footer footer ';
+    'footer footer '; /* add much main and boxes that you need*/
   grid-template-rows: 10% 80%;
   grid-template-columns: 15%;
   border: 2px solid yellow;
