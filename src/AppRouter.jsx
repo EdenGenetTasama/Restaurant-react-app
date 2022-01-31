@@ -1,8 +1,8 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./component/Home";
-import Menu from "./component/Menu";
-import Orders from "./component/Orders";
-import Header from "./component/Header";
+import Home from "./component/PagesComponents/Home";
+import Menu from "./component/PagesComponents/Menu";
+import Orders from "./component/PagesComponents/Orders";
+import Header from "./component/HeaderComponent/Header";
 import Navbar from "./component/NavbarComponent/Navbar";
 import Footer from "./component/FooterComponent/Footer";
 

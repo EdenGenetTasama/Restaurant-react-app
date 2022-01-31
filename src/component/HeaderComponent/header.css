@@ -1,0 +1,4 @@
+.Header {
+    grid-area: header;
+    border-bottom: 2px solid blue;
+  }

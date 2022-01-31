@@ -14,11 +14,6 @@
 }
 
 
-.Header {
-  grid-area: header;
-  border-bottom: 2px solid blue;
-}
-
 .Navbar {
   grid-area: menu;
   border-right: 2px solid palevioletred;
