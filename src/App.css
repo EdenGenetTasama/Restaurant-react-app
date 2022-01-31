@@ -2,9 +2,9 @@
   text-align: center;
   display: grid;
   grid-template-areas:
-    'header header header'
-    'menu main main'
-    'footer footer footer';
+    'header header '
+    'menu main '
+    'footer footer ';
   grid-template-rows: 10% 80%;
   grid-template-columns: 15%;
   border: 2px solid yellow;

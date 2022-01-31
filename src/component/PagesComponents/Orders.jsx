@@ -1,6 +1,6 @@
 
 const Orders =()=>{
-    return(<div>
+    return(<div className="mainInfo">
         <h1>Orders Page</h1>
     </div>)
 }
