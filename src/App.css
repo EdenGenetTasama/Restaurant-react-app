@@ -2,28 +2,14 @@
   text-align: center;
   display: grid;
   grid-template-areas:
-  'header header header'
-  'menu main main'
-  'footer footer footer';
+    'header header header'
+    'menu main main'
+    'footer footer footer';
   grid-template-rows: 10% 80%;
   grid-template-columns: 15%;
   border: 2px solid yellow;
   width: 100vw;
   height: 100vh;
-
-}
-
-
-.Navbar {
-  grid-area: menu;
-  border-right: 2px solid palevioletred;
-
-}
-
-
-.Footer {
-  grid-area: footer;
-  border-top: 2px solid green;
 
 }
 

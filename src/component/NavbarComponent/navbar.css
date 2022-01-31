@@ -1,0 +1,5 @@
+.Navbar {
+    grid-area: menu;
+    border-right: 2px solid palevioletred;
+  
+  }
