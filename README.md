@@ -1,4 +1,4 @@
-#דאשר
+
 # state managment
 # Getting Started with Create React App
 
