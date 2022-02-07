@@ -1,15 +1,15 @@
 export const MassageReducer = (state, action) => {
   switch (action.type) {
     case "primary":
-      return "primary";
+      return action.payload;
     case "secondary":
-      return "secondary";
+      return action.payload;
     case "error":
-      return "error";
+      return action.payload;
     case "info":
-      return "info";
+      return action.payload;
     case "warning":
-      return "warning";
+      return action.payload;
     case "Input":
       return state + action.payload;
     default:
