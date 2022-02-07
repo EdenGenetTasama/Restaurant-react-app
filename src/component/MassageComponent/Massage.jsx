@@ -6,8 +6,8 @@ const Massage = () => {
 const [massage , dispatch] = useReducer(MassageReducer,"Massage");
 
 const ChangeState=()=>{
-    dispatch(MassageAction);
-    console.log(MassageAction.type);
+    dispatch(MassageAction());
+    // console.log(MassageAction.type);
 }
 
   return (

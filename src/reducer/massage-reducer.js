@@ -4,7 +4,7 @@
 export const MassageReducer = (state, action) => {
   switch (action.type) {
     case "Success":
-      return state
+      return "Success"
     default:
       return state;
   }
