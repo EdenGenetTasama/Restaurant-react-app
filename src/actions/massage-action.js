@@ -1,9 +1,9 @@
-const Success = "Success";
+import {SUCCESS,PRIMARY,SECONDARY,ERROR,INFO,WARNING} from "./types/types-const";
 
 
 export const MassageAction =()=>{
 return{
-    type: Success
+    type: SUCCESS
 }
 }
 
@@ -14,31 +14,36 @@ export const GetMassageFromInput=(value)=>{
     }
 }
 
-export const PrimaryAction=()=>{
+export const PrimaryAction=(primaryValue)=>{
 return{
-    type: "primary"
+    type: PRIMARY,
+    payload: primaryValue
 }
 }
 
-export const SecondaryAction=()=>{
+export const SecondaryAction=(secondaryValue)=>{
     return{
-        type:"secondary"
+        type:SECONDARY,
+        payload:secondaryValue,
     }
 }
 
-export const ErrorAction=()=>{
+export const ErrorAction=(errorValue)=>{
     return{
-        type:"error"
+        type:ERROR,
+        payload:errorValue,
     }
 }
-export const InfoAction=()=>{
+export const InfoAction=(infoValue)=>{
     return{
-        type:"info"
+        type:INFO,
+        payload:infoValue,
     }
 }
 
-export const WarningAction=()=>{
+export const WarningAction=(warningValue)=>{
     return{
-        type: "warning"
+        type: WARNING,
+        payload:warningValue,
     }
 }
